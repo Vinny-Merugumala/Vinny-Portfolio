@@ -5,7 +5,7 @@ let resumeData = {
   linkedinId: "https://www.linkedin.com/in/-vineethmerugumala/",
   skypeid: "Your skypeid",
   roleDescription:
-    "I focus my efforts on developing modular and elegant code, while maintaining a friendly experience for the user. ",
+    "I focus my efforts on developing modular and elegant code, while maintaining a user-friendly experience. ",
   socialLinks: [
     {
       name: "linkedin",
@@ -19,7 +19,7 @@ let resumeData = {
     },
     {
       name: "Twitter",
-      url: "https://twitter.com/yungvinny322",
+      url: "https://twitter.com/BabuMerugumala",
       className: "fa fa-twitter"
     }
   ],
