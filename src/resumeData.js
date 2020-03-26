@@ -24,14 +24,14 @@ let resumeData = {
     }
   ],
   aboutme:
-    "I am currently a full stack web developer based in Dallas, TX, looking for new opportunities to improve my skills and knowledge as a developer. I am also an avid gamer, a true car enthusiast, and a die-hard Cowboys fan.",
+    "I am currently a Software Engineer based in Dallas, TX, looking for new opportunities to improve my skills and knowledge as a developer. I am also an avid gamer, a true car enthusiast, and a die-hard Cowboys fan.",
   address: "Email: vmerugumala111@gmail.com",
   phone: "Phone: 636-288-8629",
   website: "Github: https://github.com/Vinny-Merugumala",
   website2: "LinkedIn: https://www.linkedin.com/in/-vineethmerugumala/",
   education: [{}, {}],
   work: [{}, {}],
-  skillsDescription: "Full Stack Web-Development",
+  skillsDescription: "Software Engineer",
   skills: [
     {
       skillname: "REACT"
@@ -50,9 +50,22 @@ let resumeData = {
     },
     {
       skillname: "CSS"
+    },
+    {
+      skillname: "CSharp"
+    },
+    {
+      skillname: "DotNETCore"
     }
   ],
   portfolio: [
+    {
+      name: "CBRE Global Listings Platform",
+      description:
+        "A SPA which allows customers to search or view commercial real estate which is for sale or for lease.",
+      imgurl: "images/CBRE_Group_logo.svg.png",
+      linkUrl: "https://www.cbre.com.au/properties"
+    },
     {
       name: "FitnessGurus",
       description:

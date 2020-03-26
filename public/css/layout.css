@@ -356,6 +356,17 @@ ul#nav li.current a { color: #F06000; }
   	-moz-animation: react 2s ease;
   	-webkit-animation: react 2s ease;
 }
+.csharp {
+   width: 40%;
+   -moz-animation: csharp 2s ease;
+   -webkit-animation: csharp 2s ease;
+}
+
+.dotnetcore {
+   width: 40%;
+   -moz-animation: dotnetcore 2s ease;
+   -webkit-animation: dotnetcore 2s ease;
+}
 
 
 @-moz-keyframes redux {
@@ -383,6 +394,14 @@ ul#nav li.current a { color: #F06000; }
   0%   { width: 0px;  }
   100% { width: 90%;  }
 }
+@-moz-keyframes  csharp{
+   0%   { width: 0px;  }
+   100% { width: 40%;  }
+ }
+ @-moz-keyframes  dotnetcore{
+   0%   { width: 0px;  }
+   100% { width: 40%;  }
+ }
 
 
 @-webkit-keyframes redux {
@@ -410,6 +429,14 @@ ul#nav li.current a { color: #F06000; }
   0%   { width: 0px;  }
   100% { width: 90%;  }
 }
+@-webkit-keyframes csharp {
+   0%   { width: 0px;  }
+   100% { width: 40%;  }
+ }
+ @-webkit-keyframes dotnetcore {
+   0%   { width: 0px;  }
+   100% { width: 40%;  }
+ }
 
 
 /* ------------------------------------------------------------------ */
