@@ -34,7 +34,10 @@ let resumeData = {
   skillsDescription: "Software Engineer",
   skills: [
     {
-      skillname: "REACT"
+      skillname: "Javascript"
+    },
+    {
+      skillname: "React"
     },
     {
       skillname: "Redux"
@@ -43,19 +46,16 @@ let resumeData = {
       skillname: "Nodejs"
     },
     {
-      skillname: "Express"
-    },
-    {
       skillname: "SQL"
     },
     {
       skillname: "CSS"
     },
     {
-      skillname: "CSharp"
+      skillname: "Python"
     },
     {
-      skillname: "DotNETCore"
+      skillname: "Django"
     }
   ],
   portfolio: [
@@ -65,20 +65,6 @@ let resumeData = {
         "A SPA which allows customers to search or view commercial real estate which is for sale or for lease.",
       imgurl: "images/CBRE_Group_logo.svg.png",
       linkUrl: "https://www.cbre.com.au/properties"
-    },
-    {
-      name: "FitnessGurus",
-      description:
-        "Fitness Gurus is a web application designed for users to find fitness centers. The user can use the search bar to search for fitness venues by city and see all of the fitness listings in that city.",
-      imgurl: "images/portfolio/Capture.PNG",
-      linkUrl: "https://www.fitnessguru.best"
-    },
-    {
-      name: "Fantasy Legacy Tracker",
-      description:
-        "An application that allows users to keep up to date on current football news, or keep track of their past legacy football teams. Site offers real time updates on all players and NFL news. Site also displays visual models that help display any NFL players statistics in an user friendly way.",
-      imgurl: "images/portfolio/2.PNG",
-      linkUrl: "http://www.fantasy-legacy-tracker.club"
     }
   ]
 };

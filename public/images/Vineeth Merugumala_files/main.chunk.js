@@ -871,7 +871,7 @@ function (_Component) {
           lineNumber: 9
         },
         __self: this
-      }, "Check Out Some of My Works."), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
+      }, "Check Out Some of My Work"), react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement("div", {
         id: "portfolio-wrapper",
         className: "bgrid-quarters s-bgrid-thirds cf",
         __source: {

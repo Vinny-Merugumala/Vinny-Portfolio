@@ -363,66 +363,73 @@ ul#nav li.current a {
   border-radius: 3px 0 0 3px;
 }
 
-.redux {
-  width: 80%;
-  -moz-animation: redux 2s ease;
-  -webkit-animation: redux 2s ease;
-}
-
-.sql {
-  width: 50%;
-  -moz-animation: sql 2s ease;
-  -webkit-animation: sql 2s ease;
-}
-.nodejs {
-  width: 70%;
-  -moz-animation: nodejs 2s ease;
-  -webkit-animation: nodejs 2s ease;
-}
-.express {
-  width: 70%;
-  -moz-animation: express 2s ease;
-  -webkit-animation: express 2s ease;
-}
-.css {
-  width: 70%;
-  -moz-animation: css 2s ease;
-  -webkit-animation: css 2s ease;
+.javascript {
+  width: 90%;
+  -moz-animation: javascript 2s ease;
+  -webkit-animation: javascript 2s ease;
 }
 .react {
   width: 90%;
   -moz-animation: react 2s ease;
   -webkit-animation: react 2s ease;
 }
-.csharp {
-  width: 40%;
-  -moz-animation: csharp 2s ease;
-  -webkit-animation: csharp 2s ease;
+.redux {
+  width: 90%;
+  -moz-animation: redux 2s ease;
+  -webkit-animation: redux 2s ease;
+}
+.nodejs {
+  width: 70%;
+  -moz-animation: nodejs 2s ease;
+  -webkit-animation: nodejs 2s ease;
+}
+.sql {
+  width: 70%;
+  -moz-animation: sql 2s ease;
+  -webkit-animation: sql 2s ease;
+}
+.css {
+  width: 90%;
+  -moz-animation: css 2s ease;
+  -webkit-animation: css 2s ease;
+}
+.python {
+  width: 80%;
+  -moz-animation: python 2s ease;
+  -webkit-animation: python 2s ease;
 }
 
-.dotnetcore {
-  width: 40%;
-  -moz-animation: dotnetcore 2s ease;
-  -webkit-animation: dotnetcore 2s ease;
+.django {
+  width: 80%;
+  -moz-animation: django 2s ease;
+  -webkit-animation: django 2s ease;
 }
 
+@-moz-keyframes javascript {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 90%;
+  }
+}
+@-moz-keyframes react {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 90%;
+  }
+}
 @-moz-keyframes redux {
   0% {
     width: 0px;
   }
   100% {
-    width: 80%;
+    width: 90%;
   }
 }
 @-moz-keyframes nodejs {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 70%;
-  }
-}
-@-moz-keyframes express {
   0% {
     width: 0px;
   }
@@ -436,7 +443,7 @@ ul#nav li.current a {
     width: 0px;
   }
   100% {
-    width: 50%;
+    width: 70%;
   }
 }
 @-moz-keyframes css {
@@ -444,35 +451,10 @@ ul#nav li.current a {
     width: 0px;
   }
   100% {
-    width: 70%;
-  }
-}
-@-moz-keyframes react {
-  0% {
-    width: 0px;
-  }
-  100% {
     width: 90%;
   }
 }
-@-moz-keyframes csharp {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 40%;
-  }
-}
-@-moz-keyframes dotnetcore {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 40%;
-  }
-}
-
-@-webkit-keyframes redux {
+@-moz-keyframes python {
   0% {
     width: 0px;
   }
@@ -480,37 +462,21 @@ ul#nav li.current a {
     width: 80%;
   }
 }
-@-webkit-keyframes nodejs {
+@-moz-keyframes django {
   0% {
     width: 0px;
   }
   100% {
-    width: 70%;
-  }
-}
-@-webkit-keyframes express {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 70%;
+    width: 80%;
   }
 }
 
-@-webkit-keyframes sql {
+@-webkit-keyframes javascript {
   0% {
     width: 0px;
   }
   100% {
-    width: 50%;
-  }
-}
-@-webkit-keyframes css {
-  0% {
-    width: 0px;
-  }
-  100% {
-    width: 70%;
+    width: 90%;
   }
 }
 @-webkit-keyframes react {
@@ -521,20 +487,53 @@ ul#nav li.current a {
     width: 90%;
   }
 }
-@-webkit-keyframes csharp {
+@-webkit-keyframes redux {
   0% {
     width: 0px;
   }
   100% {
-    width: 40%;
+    width: 90%;
   }
 }
-@-webkit-keyframes dotnetcore {
+@-webkit-keyframes nodejs {
   0% {
     width: 0px;
   }
   100% {
-    width: 40%;
+    width: 70%;
+  }
+}
+@-webkit-keyframes sql {
+  0% {
+    width: 0px;
+  }  
+  100% {
+    width: 70%;
+  }
+}
+@-webkit-keyframes css {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+@-webkit-keyframes python {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 80%;
+  }
+}
+@-webkit-keyframes django {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 80%;
   }
 }
 
